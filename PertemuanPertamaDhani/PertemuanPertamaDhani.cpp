@@ -15,6 +15,11 @@ int main()
 
     double nJejari, nLuas;
     cout << "masukkan Jejari = ";
+    cin >> nJejari;
+    nLuas = 3.14 * nJejari;
+    cout << "Luasnya = " << nLuas << endl;
+
+    system("pause")
 
 }   
 
